@@ -127,7 +127,6 @@ namespace Wow64Test
     {
         static void Main(string[] args)
         {
-            Process p = System.Diagnostics.Process.GetCurrentProcess();
             ushort processMachine;
             ushort nativeMachine;
             bool bResult;
